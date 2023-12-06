@@ -8,3 +8,36 @@
 
 
 Code implementation of "_**Toward Efficient Remote Sensing Image Change Detection via Cross-Temporal Context Learning**_".  IEEE TGRS 2023.[Paper](https://ieeexplore.ieee.org/abstract/document/10138342)
+
+
+### 1. Train
+
+To train CCLNet with costumed path:
+
+```bash
+sh ./scripts/run_cd.sh
+```
+### 2. Test
+
+To test with trained model:
+
+```bash
+sh ./scripts/eval.sh
+```
+
+
+
+## Citation
+
+Please cite our paper if you find the work useful, thanks!
+
+  @article{song2023towards,
+    title={Towards Efficient Remote Sensing Image Change Detection via Cross-temporal Context Learning},
+    author={Song, Ze and Wei, Xiaohui and Kang, Xudong and Li, Shutao and Liu, Jinyang},
+    journal={IEEE Transactions on Geoscience and Remote Sensing},
+    year={2023},
+    publisher={IEEE}
+  }
+	
+
+**[⬆ back to top](#1-preface)**
